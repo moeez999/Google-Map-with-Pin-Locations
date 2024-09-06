@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+}
+#map {
+  height: 500px;
+  width: 100%;
+}
+.location-buttons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  gap: 1px;
+  border: none;
+}
+.location-buttons li {
+  background-color: #a2503e;
+  color: #fff;
+  padding: 1rem 2rem;
+  list-style: none;
+  text-align: center;
+  font-size: 1rem;
+  flex: 1;
+  margin: 0;
+}
+.active {
+  background-color: #364d50 !important;
+}
+.location-name {
+  color: #959139;
+  text-align: center;
+  padding-bottom: 13px;
+  border-bottom: 1px solid rgb(0 0 0 / 0.1);
+}
+.location-address {
+  text-align: center;
+}
+.link-buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 1px;
+  margin-top: 1rem;
+}
+.link-buttons {
+  width: 100%;
+  text-decoration: none;
+  color: rgb(0 0 0 / 0.8);
+  font-weight: 400;
+  border: 1px solid #777;
+  padding: 10px 20px;
+  list-style: none;
+  text-align: center;
+  font-size: 1.25rem;
+}
+.link-buttons:hover {
+  background-color: #959139;
+  color: #fff;
+}
+.gm-ui-hover-effect {
+  left: 0 !important;
+}
